@@ -1,5 +1,5 @@
 // models/AuthModel.js
-const { admin, rtdb } = require('../config/firebaseAdmin');
+const { admin, rtdb } = require('../Config/FirebaseAdmin');
 
 class AuthModel {
   

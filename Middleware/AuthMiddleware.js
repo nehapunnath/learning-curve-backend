@@ -1,6 +1,6 @@
 // middleware/AuthMiddleware.js
-const { admin } = require('../config/firebaseAdmin');
-const AuthModel = require('../models/AuthModel');
+const { admin } = require('../Config/FirebaseAdmin');
+const AuthModel = require('../Models/AuthModel');
 
 // Middleware to require authentication
 async function requireAuth(req, res, next) {
